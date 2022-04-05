@@ -96,7 +96,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 # Adding Content to `Index.html`
 
-33. At the moment, our document doesn’t have any content – let’s add some.  Between the `<head>` tags you will see a set of `<title>` tags. 
+33. At the moment, our document doesn’t have any real content – let’s add some.  Between the `<head>` tags you will see a set of `<title>` tags. 
 
 34. As the diagram illustrates, this data is not presented in the browser. This is true for the most part. 
 
@@ -131,9 +131,9 @@ Some resources that can help you get started:
 
 41. Notice two things:
 - The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
-- Repl.it has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Repl.it provide this function to help you prevent errors in your code and create valid documents.
+- Repl.it has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
 42. Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
@@ -443,15 +443,9 @@ THIS FIG STAYS
 
 118. Submit the HTML files and relevant CSS as as `.zip` folder on Canvas, along with your answers to lab notebook questions.
 
-119. You can download the entire Replit project by clicking on the "Download as Zip" option under the three dots next to "Files" on the left-hand side of the page.
+<blockquote>Q9: Have you ever created a website before? Have you used a program like WordPress, Wix, SquareSpace, or Weebly? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
-119. Also include a link to your Replit project workspace. This link is the URL that is active in your browser when you are working on this project in Replit.
-- Link template: `https://replit.com/@USERNAME/PROJECTNAME`
-- The link you copy in from Replit should include your username, followed by the project name (whatever you titled the Repl when you created the workspace)
-
-<blockquote>Q10: Have you ever created a website before? Have you used a program like WordPress, Wix, SquareSpace, or Weebly? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
-
-<blockquote>Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.</blockquote>
+<blockquote>Q10: Submit the HTML files and relevant CSS as as zip folder on Canvas.</blockquote>
 
 # Endnotes
 
@@ -463,27 +457,25 @@ THIS FIG STAYS
 
 All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also submit the HTML files and relevant CSS as a `.zip` folder on Canvas.
 
-Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar?
+Q1: Try to interpret a few of these errors in your own words. HINT: The W3Schools resources listed under step 15 provide more information or explanation on some of these errors.
 
-Q2: Try to interpret a few of these errors in your own words. HINT: The W3Schools resources listed under step 15 provide more information or explanation on some of these errors.
-
-Q3: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook. Some resources that can help you get started:
+Q2: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook. Some resources that can help you get started:
 - [W3Schools, "HTML Meta Tag"](https://www.w3schools.com/tags/tag_meta.asp)
 - [W3Schools, "HTML Meta Charset Attribute"](https://www.w3schools.com/tags/att_meta_charset.asp)
 - [W3Schools, "Responsive Web Design With Viewport"](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-Q4: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.
+Q3: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.
 
-Q5: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image? Hint: Refer to step 59 in the lab procedure.
+Q4: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image?
 
-Q6: Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source. What challenges did you face getting the table to display and function like you expected?
+Q5: Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source. What challenges did you face getting the table to display and function like you expected?
 
-Q7: Take a look at the HTML Colors page listed above. Do you see anything familiar?
+Q6: Take a look at the HTML Colors page listed above. Do you see anything familiar?
 
-Q8: If you haven't already, experiment with modifying your existing HTML pages to include some of these style elements.
+Q7: If you haven't already, experiment with modifying your existing HTML pages to include some of these style elements.
 
-Q9: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.
+Q8: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.
 
-Q10: Have you ever created a website before? Have you used a program like WordPress, Weebly, SquareSpace, or Wix? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
+Q9: Have you ever created a website before? Have you used a program like WordPress, Weebly, SquareSpace, or Wix? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
 
-Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.
+Q10: Submit the HTML files and relevant CSS as as zip folder on Canvas.
