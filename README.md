@@ -135,7 +135,7 @@ Some resources that can help you get started:
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
-42. Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
+42. Go ahead and update the content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
@@ -143,11 +143,9 @@ Some resources that can help you get started:
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_J.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_J.png?raw=true" /></a></p>
 
-44. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Replit's web browser.
+45. At any time you can check the way that your code will render by saving, and clicking on the .html link/refreshing the page. 
 
-45. At any time you can check the way that your code will render clicking `Run`. 
-
-46. Save the file in a dedicated new folder for this project, and call it `index.html.`
+46. Save the file in a dedicated folder for this project, and call it `index.html.`
 
 <blockquote>Why <code>index.html</code>? <code>index.html</code> is the name of the default landing page for websites. The web server (the computer hosing the site) will automatically recognize <code>index.html</code> as the first page or the home page of a website. Some servers use other variations like <code>home.html</code>, but we’ll use <code>index.html</code>.</blockquote>
 
@@ -155,17 +153,9 @@ Some resources that can help you get started:
 
 47. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_L.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_L.png?raw=true" /></a></p>
+48. Let’s create a second `.html` file and save this file as `page2.html`. You can do this by duplicating the index.html file and then renaming. Hint: this will also help us make sure we're starting with an HTML document that is well-formed and valid.
 
-48. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
-
-49. Save this file as `page2.html`. 
-
-50. We can copy the HTML from `index.html` to make sure we're starting with an HTML document that is well-formed and valid.
-
-<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_K.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_K.png?raw=true" /></a></p>
-
-51. Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
+51. Now add some new content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
 # Creating Links in HTML
 
@@ -193,9 +183,7 @@ Some resources that can help you get started:
 
 60. Let’s add an image to the `index.html` page. 
 
-<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
-
-61. Find an image that you like on the web, save it to your local computer, and upload the file to your repl. 
+61. Find an image that you like on the web, save it to your local computer in the dedicated file location of your project (e.g., where the index.html and page2.html exist).
 
 62. The `<img>` tag is very similar to the `<a href>` tag that we just used. 
 - Learn more about the `<img>` tag via W3Schools:  http://www.w3schools.com/tags/tag_img.asp
@@ -216,11 +204,11 @@ Some resources that can help you get started:
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
 
-68. View the page in the Replit browser to see if the image has loaded correctly.
+68. View the created page in your browser to see if the image has loaded correctly.
 
 <blockquote>Q4: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.</blockquote>
 
-<blockquote>Q5: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image? Hint: Refer to step 59 in the lab procedure.</blockquote>
+<blockquote>Q5: Move the image you added in Q4 into a new "Images" folder. What happens when you save and run the code? What would you need to modify in the HTML to correctly display this image?</blockquote>
 
 # Building Tables in HTML
  
@@ -347,7 +335,7 @@ Some resources that can help you get started:
 
 ## Creating and Implementing CSS
 
-92. Open the already-existing `style.css` file in your repl.
+92. Open the already-existing `style.css` file from the htmltemplate.zip download.
 
 93. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
@@ -405,7 +393,7 @@ p {
 THIS FIG STAYS
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
-106. Open the `index.html` file in the Replit browser to see the updated CSS.
+106. Open the `index.html` file in your browser to see the updated CSS.
 
 107. However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
 
@@ -466,7 +454,7 @@ Q2: Between the head tags, there are also a few meta tags. Use the W3C site to t
 
 Q3: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.
 
-Q4: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image?
+Q4: Move the image you added in Q4 into a new "Images" folder. What happens when you save and run the code? What would you need to modify in the HTML to correctly display this image?
 
 Q5: Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source. What challenges did you face getting the table to display and function like you expected?
 
