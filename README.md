@@ -5,25 +5,20 @@ This tutorial was written by [Lindsay K. Mattock](http://lindsaymattock.net) and
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-Over the next few weeks we are going to complete a number of programming projects. As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. Your computer likely already has some text editor options (Notepad or Notepad ++ for PC users, or Text Editor for Mac users). But, there are other tools that provide additional functions that will help us to work with these languages. Before we start building our HTML pages we are going to set up an Integrated Development Environment (IDE) that help us to write and find errors in our HTML. We will also use the IDE for future labs that work with Python.
-
-<blockquote>Integrated Development Environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not (<a href="https://en.wikipedia.org/wiki/Integrated_development_environment">Wikipedia</a>).</blockquote>
-
-[Link to lab notebook template](https://docs.google.com/document/d/1r92sHMZ5Ok137qbfPkK1Z9-zedyIeaXn6z1hniHCnOc/copy) (ND users, Google Doc).
+As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. Your computer likely already has some text editor options (Notepad or Notepad ++ for PC users, or Text Editor for Mac users). 
 
 ## Lab Objectives
 
 By the end of this lab you will be able to:
--	Identify the key features of an IDE
--	Use the Repl.it IDE to generate HTML pages that include links, images, and tables
--	Use the Repl.it IDE to generate CSS stylesheets to format your HTML pages
+- Generate HTML pages that include links, images, and tables
+- Generate CSS stylesheets to format your HTML pages
+- Become more familiar with how web data is formatted for future projects
 
 ## Acknowledgements
 
 This lab is based on the "Project 3: HTML/CSS" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
-- [Getting Started With Repl.it](#getting-started-with-replit)
 - [What is HTML?](#what-is-html)
   * [Hello World!](#hello-world)
 - [Creating an HTML File](#creating-an-html-file)
@@ -39,65 +34,16 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Endnotes](#endnotes)
 - [Lab Questions](#lab-questions)
 
-# Getting Started With Repl.it
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_B.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_B.png?raw=true" /></a></p>
-
-1. Navigate to https://repl.it/ in a web browser.
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_C.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_C.png?raw=true" /></a></p>
-
-2. Click the `Sign Up` button in the upper right-hand corner to create a free account using your Notre Dame @nd.edu Gmail.
-- You may also have received an email invitation to join the "Elements of Computing I" team in Replit. Accepting this invitation will also set up a free Replit account.
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_D.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_D.png?raw=true" /></a></p>
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_E.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_E.png?raw=true" /></a></p>
-
-3. When logged into Replit, you should see that you are part of the "Elements of Computing I" team/organization.
-
-4. This team workspace includes a template workspace for this lab. Create a copy of the template.
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_F.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_F.png?raw=true" /></a></p>
-
-5. Otherwise, you will need to click the `New repl` button in the upper left-hand corner to start a new repl.
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_G.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_G.png?raw=true" /></a></p>
-
-6. If creating a new Repl from scrach, select "HTML/CSS" from the dropdown menu for repl type.
-
-7. Give the project a descriptive and meaningful name.
-- For example `Walden_HTML_CSS_Lab3` 
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_H.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_H.png?raw=true" /></a></p>
-
-8. If creating a new Repl project from scratch (rather than using the template), you will need to delete all files in the workspace and upload the project files and template.
-- You can delete files by clicking on the three dots next to the file name in the left-hand "Files" pane
-- Do this for all three files
-- Upload the files in the project template
-  * [Link to download template files from Google Drive](https://drive.google.com/file/d/1gKvCyKTzeG5_32zWxtU_VXNOGnmPUWQ6/view?usp=sharing)
-  * You will need to extract the contents of the compressed or zip folder
-    * PC Users: Right click on the zip folder (likely in Downloads) and select "Extract All"
-    * Mac Users: Double click on the downloaded folder (likely in your downloads on the bottom right-hand corner of the screen)
-  * Then once you have the files, you can upload them to Replit
-- Create an "Images" folder
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
-
-9. Whether you create a new Repl or use the existing project template, you'll want to end up with a project workspace that resembles the screenshot above.
-
-<blockquote>Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar? </blockquote>
-
 # What is HTML?
 
-10. HTML stands for HyperText Markup Language
+1. HTML stands for HyperText Markup Language
 
 <blockquote>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 
 <ul><li>"Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
  <li>"HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup></li></ul></blockquote>
 
-11. HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
+2. HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
 
 ## Hello World!
 
@@ -107,60 +53,46 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 </html>
 ```
 
-12. This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
+3. This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
    
-13. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it in a web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
+4. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it in a web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
 
-14. `helloworld.html` contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
+5. `helloworld.html` contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
 
-15. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
+6. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
 - [W3Schools, "HTML head tag"](https://www.w3schools.com/tags/tag_head.asp)
 - [W3Schools, "HTML !DOCTYPE Declaration"](https://www.w3schools.com/tags/tag_doctype.asp)
 - [W3Schools, "HTML ISO Language Codes"](https://www.w3schools.com/tags/ref_language_codes.asp)
   
-16. While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. 
+7. While our browser was able to interpret the code from helloworld.html, this document does not follow all of the rules of the current version of HTML. 
 
-17. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
+8. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
 
-<blockquote>Q2: Try to interpret a few of these errors in your own words. HINT: The W3Schools resources listed under step 15 provide more information or explanation on some of these errors.</blockquote>
+<blockquote>Q1: Try to interpret a few of these errors in your own words. HINT: The W3Schools resources listed under step 5 provide more information or explanation on some of these errors.</blockquote>
 
 # Creating an HTML File
 
-18. Let’s make a few modifications to the `Hello World` file that will make it valid. Navigate to the Replit project you have created for this lab and open the `index.html` document. 
+9. Let’s make a few modifications to the `Hello World` file that will make it more valid. Navigate to the htmltemplate.zip file given to you for this   lab and open the index.html document.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_A.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_A.png?raw=true" /></a></p>
+10. In this .html file you will first notice we have the document type declaration beginning with `<!DOCTYPE`. In this case, the document type is followed by `html`. This is simply telling the computer that what follows is a HTML document. 
 
-19. If you compare this template to the structure of an html document that you read about from the WC3 this week, you will find all of the required elements in this template. 
+11. Next we see the opening HTML tag, but there are a few additional attributes here: `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">` 
 
-20. Repl.it has conveniently highlighted these different elements in different colors so that they can be easily distinguished as you build your html document.
+12. This is just another piece of the XHTML specification. 
 
-21. The red at the top are comments indicated by the `<!-- and -->`. Comments are written for the user and not for the computer. 
+13. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab. 
 
-22. These special start and end tags tell the computer to ignore what follows. Comments are used to include instructions and explanations about the code in a human-readable form. 
-
-23. Feel free to use comments throughout your code to leave notes for yourself or describe what the code is doing (or what you want it to do).
-
-24. Next, we have the document type declaration beginning with `<!DOCTYPE`. In this case, the document type is followed by `html`. This is simply telling the computer that what follows is a HTML document. 
-
-25. Next we see the opening HTML tag, but there are a few additional attributes here: `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">` 
-
-26. This is just another piece of the XHTML specification. 
-
-27. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab. 
-
-28. Also note here that the document language is declared as English with the `en` code with a standardized abbreviation for the English language.
+14. Also note here that the document language is declared as English with the `en` code with a standardized abbreviation for the English language.
 
 <blockquote>XHTML 1.0 Documentation http://www.w3.org/TR/xhtml1/</blockquote>
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true" /></a></p>
 
-29. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
+15. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
-30. The `index.html` file included in the project template reflects HTML that is well-formed and valid. 
+16. The `index.html` file included in the project template reflects HTML that is well-formed and valid. 
 
-31. We can test this by copying and pasting our file into the HTML Validator. (Go ahead and give it a try https://validator.w3.org). 
-
-32. This is one of the advantages to using an IDE for website development. As you will see in a few moments, Repl.it has a few other features that will help us to create well-formed and valid HTML documents.
+17. We can test this by copying and pasting our file into the HTML Validator. (Go ahead and give it a try https://validator.w3.org). 
 
 # Adding Content to `Index.html`
 
@@ -214,8 +146,6 @@ Some resources that can help you get started:
 44. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Replit's web browser.
 
 45. At any time you can check the way that your code will render clicking `Run`. 
-
-<blockquote>Repl.it will auto-save your work (like Google Docs). For other IDEs, you can press <code>Control + S</code> to save file updates.</blockquote>
 
 46. Save the file in a dedicated new folder for this project, and call it `index.html.`
 
