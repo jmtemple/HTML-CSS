@@ -137,11 +137,11 @@ Some resources that can help you get started:
 
 42. Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
 43. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_J.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_J.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_J.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_J.png?raw=true" /></a></p>
 
 44. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Replit's web browser.
 
@@ -155,7 +155,7 @@ Some resources that can help you get started:
 
 47. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_L.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_L.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_L.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_L.png?raw=true" /></a></p>
 
 48. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
 
@@ -163,7 +163,7 @@ Some resources that can help you get started:
 
 50. We can copy the HTML from `index.html` to make sure we're starting with an HTML document that is well-formed and valid.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_K.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_K.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_K.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_K.png?raw=true" /></a></p>
 
 51. Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
@@ -178,7 +178,7 @@ Some resources that can help you get started:
 55. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
 - Learn more about the `<a href>` tag via W3Schools: http://www.w3schools.com/TAGS/att_a_href.asp
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
 
 56. Run `index.html` to see the updated file with a link. 
 
@@ -193,7 +193,7 @@ Some resources that can help you get started:
 
 60. Let’s add an image to the `index.html` page. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
 
 61. Find an image that you like on the web, save it to your local computer, and upload the file to your repl. 
 
@@ -208,13 +208,13 @@ Some resources that can help you get started:
 
 65. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_M.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_M.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_M.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_M.png?raw=true" /></a></p>
 
 66. On your `index.html` page, add the line `<img src="imagefilename" alt=Description of image>` in the `<body>`.
 
 67. Be sure to use your image file name in place of the italicized text above. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
 
 68. View the page in the Replit browser to see if the image has loaded correctly.
 
@@ -287,7 +287,7 @@ Some resources that can help you get started:
 
 76. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
 
 77. We can add style to individual HTML element tags using `style` attributes.
 
@@ -314,7 +314,7 @@ Some resources that can help you get started:
 </body>
 ```
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_14.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_14.png?raw=true" /></a></p>
 
 83. We can see how the style attributes are changing how the web page content displays:
 - The `<h1>` heading has has a blue text color and is center-aligned
@@ -351,7 +351,7 @@ Some resources that can help you get started:
 
 93. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
 94. Let's get started by adding a few styles for the background, `<h1>`, and `<p>`. 
 
@@ -403,7 +403,7 @@ p {
 105. To learn more about the `<link rel>` tag: http://www.w3schools.com/tags/att_link_rel.asp
 
 THIS FIG STAYS
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
 106. Open the `index.html` file in the Replit browser to see the updated CSS.
 
