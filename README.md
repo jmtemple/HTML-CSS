@@ -86,7 +86,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 <blockquote>XHTML 1.0 Documentation http://www.w3.org/TR/xhtml1/</blockquote>
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_3.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_3.png?raw=true" /></a></p>
 
 15. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
