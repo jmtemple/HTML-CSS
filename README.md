@@ -131,7 +131,7 @@ Some resources that can help you get started:
 
 41. Notice two things:
 - The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
-- Repl.it has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. 
+- The editor completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
@@ -174,7 +174,7 @@ Some resources that can help you get started:
 
 57. When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
 
-58. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our server (the repl). 
+58. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our machine. 
 
 59. If we had saved this file to another folder or directory, we would need to include the full file path, including any directory information.
 - For example if we had put `page2.html` in a folder titled "Page_Two," the `a href` tag would look like `<a href="Page_Two/page2.html">`.
