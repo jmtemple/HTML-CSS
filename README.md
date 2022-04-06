@@ -5,7 +5,7 @@ This tutorial was written by [Lindsay K. Mattock](http://lindsaymattock.net) and
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. Your computer likely already has some text editor options (Notepad or Notepad ++ for PC users, or Text Editor for Mac users). 
+As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. Your computer likely already has some text editor options (Notepad or Notepad ++ for PC users, or Text Editor for Mac users). Personally I use/would recommend VS Code as your source code editor: ([Download Here](https://code.visualstudio.com/#alt-downloads)).
 
 ## Lab Objectives
 
