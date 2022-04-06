@@ -96,11 +96,11 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 # Adding Content to `Index.html`
 
-33. At the moment, our document doesn’t have any real content – let’s add some.  Between the `<head>` tags you will see a set of `<title>` tags. 
+18. At the moment, our document doesn’t have any real content – let’s add some.  Between the `<head>` tags you will see a set of `<title>` tags. 
 
-34. As the diagram illustrates, this data is not presented in the browser. This is true for the most part. 
+19. As the diagram illustrates, this data is not presented in the browser. This is true for the most part. 
 
-35. The `<head>` of the document is reserved for metadata, but also includes the `<title>` of the page which is represented in the tabs in some web browsers. 
+20. The `<head>` of the document is reserved for metadata, but also includes the `<title>` of the page which is represented in the tabs in some web browsers. 
 
 ```html
   <head>
@@ -110,7 +110,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
   </head>
 ```
 
-36. Replace “YOUR PAGE TITLE GOES HERE” between the `<title>` tags to give your document a new title.
+21. Replace “YOUR PAGE TITLE GOES HERE” between the `<title>` tags to give your document a new title.
 
 <blockquote>Q3: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook.<br>
 Some resources that can help you get started:
@@ -121,90 +121,90 @@ Some resources that can help you get started:
  </ul>
 </blockquote>
   
-37. Now, let’s modify the body. This is where the content that we will see in the web browser is entered. 
+22. Now, let’s modify the body. This is where the content that we will see in the web browser is entered. 
 
-38. HTML uses a number of different formatting tags. You can use the W3Schools ["HTML Reference"](https://www.w3schools.com/tags/default.asp) to browse through some of the different options. 
+23. HTML uses a number of different formatting tags. You can use the W3Schools ["HTML Reference"](https://www.w3schools.com/tags/default.asp) to browse through some of the different options. 
 
-39. For now, we’ll use `<h1>` and `<p>`.
+24. For now, we’ll use `<h1>` and `<p>`.
 
-40. After the first `<body>` tag, place a `<h1>` tag on a new line. 
+25. After the first `<body>` tag, place a `<h1>` tag on a new line. 
 
-41. Notice two things:
+26. Notice two things:
 - The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
 - The editor completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
-42. Go ahead and update the content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
+27. Go ahead and update the content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
-43. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
+27. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_J.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_J.png?raw=true" /></a></p>
 
-45. At any time you can check the way that your code will render by saving, and clicking on the .html link/refreshing the page. 
+28. At any time you can check the way that your code will render by saving, and clicking on the .html link/refreshing the page. 
 
-46. Save the file in a dedicated folder for this project, and call it `index.html.`
+29. Save the file in a dedicated folder for this project, and call it `index.html.`
 
 <blockquote>Why <code>index.html</code>? <code>index.html</code> is the name of the default landing page for websites. The web server (the computer hosing the site) will automatically recognize <code>index.html</code> as the first page or the home page of a website. Some servers use other variations like <code>home.html</code>, but we’ll use <code>index.html</code>.</blockquote>
 
 # Building Additional Web Pages
 
-47. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
+30. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-48. Let’s create a second `.html` file and save this file as `page2.html`. You can do this by duplicating the index.html file and then renaming. Hint: this will also help us make sure we're starting with an HTML document that is well-formed and valid.
+31. Let’s create a second `.html` file and save this file as `page2.html`. You can do this by duplicating the index.html file and then renaming. Hint: this will also help us make sure we're starting with an HTML document that is well-formed and valid.
 
-51. Now add some new content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
+32. Now add some new content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
 # Creating Links in HTML
 
-52. Now, let’s add a link to the second page on our `index.html` page. 
+33. Now, let’s add a link to the second page on our `index.html` page. 
 
-53. We add links with the `<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
+34. We add links with the `<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
 
-54. The tag syntax is as follows: `<a href="URL to page">Text that will appear as the link</a>`. 
+35. The tag syntax is as follows: `<a href="URL to page">Text that will appear as the link</a>`. 
   
-55. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
+36. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
 - Learn more about the `<a href>` tag via W3Schools: http://www.w3schools.com/TAGS/att_a_href.asp
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
 
-56. Run `index.html` to see the updated file with a link. 
+37. Run `index.html` to see the updated file with a link. 
 
-57. When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
+38. When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
 
-58. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our machine. 
+39. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our machine. 
 
-59. If we had saved this file to another folder or directory, we would need to include the full file path, including any directory information.
+40. If we had saved this file to another folder or directory, we would need to include the full file path, including any directory information.
 - For example if we had put `page2.html` in a folder titled "Page_Two," the `a href` tag would look like `<a href="Page_Two/page2.html">`.
 
 # Adding Images in HTML
 
-60. Let’s add an image to the `index.html` page. 
+41. Let’s add an image to the `index.html` page. 
 
-61. Find an image that you like on the web, save it to your local computer in the dedicated file location of your project (e.g., where the index.html and page2.html exist).
+42. Find an image that you like on the web, save it to your local computer in the dedicated file location of your project (e.g., where the index.html and page2.html exist).
 
-62. The `<img>` tag is very similar to the `<a href>` tag that we just used. 
+43. The `<img>` tag is very similar to the `<a href>` tag that we just used. 
 - Learn more about the `<img>` tag via W3Schools:  http://www.w3schools.com/tags/tag_img.asp
 
-63. The tag has two required attributes:
+44. The tag has two required attributes:
 - `src` or the source
 -  `alt` or the alternative text for the image
 
-64. The `src` can be a local file or a URL to an image on the web, just like the href attribute in the `<a href>` tag. 
+45. The `src` can be a local file or a URL to an image on the web, just like the href attribute in the `<a href>` tag. 
 
-65. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
+46. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_M.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Fig_M.png?raw=true" /></a></p>
 
-66. On your `index.html` page, add the line `<img src="imagefilename" alt=Description of image>` in the `<body>`.
+47. On your `index.html` page, add the line `<img src="imagefilename" alt=Description of image>` in the `<body>`.
 
-67. Be sure to use your image file name in place of the italicized text above. 
+48. Be sure to use your image file name in place of the italicized text above. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
 
-68. View the created page in your browser to see if the image has loaded correctly.
+49. View the created page in your browser to see if the image has loaded correctly.
 
 <blockquote>Q4: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.</blockquote>
 
@@ -212,14 +212,14 @@ Some resources that can help you get started:
 
 # Building Tables in HTML
  
-69. HTML uses a few core tags for web pages that include tables.
+50. HTML uses a few core tags for web pages that include tables.
 - `table` (marks the start and end of a table
 - `tbody` (marks the start and end of the table body)
 - `tr` (marks the start and end of each table row)
 - `th` (marks the start and end of each column in the first row of the table)
 - `td` (marks the start and end of each column after the first row of the table)
 
-70. How we might see those tags combined in a table structure:
+51. How we might see those tags combined in a table structure:
 
 ```HTML
 <table>
@@ -241,7 +241,7 @@ Some resources that can help you get started:
 </table>
 ```
 
-71. The output of that HTML would look like:
+52. The output of that HTML would look like:
 
 <table>
  <tr>
@@ -261,9 +261,9 @@ Some resources that can help you get started:
  </tr>
 </table>
 
-73. Additional attributes like `align`, `style`, etc. can be used with many of these tags.
+53. Additional attributes like `align`, `style`, etc. can be used with many of these tags.
 
-74. For more on building tables in HTML:
+54. For more on building tables in HTML:
 - [W3Schools, "HTML Tables"](https://www.w3schools.com/html/html_tables.asp)
 - [W3Schools, "HTML table tag"](https://www.w3schools.com/tags/tag_table.asp)
 
@@ -271,29 +271,29 @@ Some resources that can help you get started:
 
 # Using HTML Styles
 
-75. HTML allows us to add style to our pages internally, or inline, using HTML tags. 
+55. HTML allows us to add style to our pages internally, or inline, using HTML tags. 
 
-76. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
+56. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
 
-77. We can add style to individual HTML element tags using `style` attributes.
+57. We can add style to individual HTML element tags using `style` attributes.
 
-78. The syntax for style attributes is `style="STYLE_PROPERTY:PROPERTY_VALUE;"`
+58. The syntax for style attributes is `style="STYLE_PROPERTY:PROPERTY_VALUE;"`
 
-79. For example, if we wanted text characters in the `H1` tag to be blue and center aligned:
+59. For example, if we wanted text characters in the `H1` tag to be blue and center aligned:
 ```HTML
  <h1 style="color:blue; text-align:center;">Hello World!</h1>
 ```
 
-80. And if we wanted text in the `p` tag to have a light blue background and a different font:
+60. And if we wanted text in the `p` tag to have a light blue background and a different font:
 ```HTML
  <p style="background-color:powderblue; font-family:courier;">This is my first HTML page.</p>
 ```
 
-81. All style elements are enclosed in quotation marks and include a semicolon after each element.
+61. All style elements are enclosed in quotation marks and include a semicolon after each element.
 
-82. To put that all together:
+62. To put that all together:
 
 ```HTML
 <body>
@@ -304,11 +304,11 @@ Some resources that can help you get started:
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_14.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_14.png?raw=true" /></a></p>
 
-83. We can see how the style attributes are changing how the web page content displays:
+63. We can see how the style attributes are changing how the web page content displays:
 - The `<h1>` heading has has a blue text color and is center-aligned
 - The `<p>` content has a powder blue background color and Courier font
 
-84. For more on HTML styles:
+64. For more on HTML styles:
 - HTML Styles: https://www.w3schools.com/html/html_styles.asp
 - HTML Colors: https://www.w3schools.com/html/html_colors.asp
 
@@ -318,40 +318,40 @@ Some resources that can help you get started:
 
 # Using Cascading Style Sheets (CSS)
 
-85. You can customize HTML using style attributes, but imagine you want all instances of the `<h1>` or `<p>` tag in your website to have the same formatting.
+65. You can customize HTML using style attributes, but imagine you want all instances of the `<h1>` or `<p>` tag in your website to have the same formatting.
 
-86. Doing this with `style` would require adding code every time you use these elements.
+66. Doing this with `style` would require adding code every time you use these elements.
 
-87. Cascading Style Sheets (CSS) provides a more elegant way to add these style attributes across the pages in our site. 
+67. Cascading Style Sheets (CSS) provides a more elegant way to add these style attributes across the pages in our site. 
 - For more on CSS: https://www.w3schools.com/css/css_intro.asp
 
-88. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site "themes" are managed. 
+68. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site "themes" are managed. 
 
-89. Let’s create a simple external CSS for our site. 
+69. Let’s create a simple external CSS for our site. 
 
-90. The CSS is cascading because there is a hierarchy to the way that styles are applied. 
+70. The CSS is cascading because there is a hierarchy to the way that styles are applied. 
 
-91. If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. This lets us override the stylsheet if there is particular content that we would like to style differently.
+71. If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. This lets us override the stylsheet if there is particular content that we would like to style differently.
 
 ## Creating and Implementing CSS
 
-92. Open the already-existing `style.css` file from the htmltemplate.zip download.
+72. Open the already-existing `style.css` file from the htmltemplate.zip download.
 
-93. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
+73. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
-94. Let's get started by adding a few styles for the background, `<h1>`, and `<p>`. 
+74. Let's get started by adding a few styles for the background, `<h1>`, and `<p>`. 
 
-95. Each tag is defined first `<body>`, `<h1>`, and `<p>` in this example. These are referred to as the selectors. 
+75. Each tag is defined first `<body>`, `<h1>`, and `<p>` in this example. These are referred to as the selectors. 
 
-96. Our style instructions for each tag are enclosed in `{ }`. These are called declarations. 
+76. Our style instructions for each tag are enclosed in `{ }`. These are called declarations. 
 
-97. We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. Each declaration has a property followed by a colon and then a value. 
+77. We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. Each declaration has a property followed by a colon and then a value. 
 
-98. It is common practice to place each declaration on a new line and to indent the declarations, but this is only to make the file easier for us to read and edit. The spacing has no impact on how the computer reads and interprets the code.
+78. It is common practice to place each declaration on a new line and to indent the declarations, but this is only to make the file easier for us to read and edit. The spacing has no impact on how the computer reads and interprets the code.
 
-99. Putting that all together:
+79. Putting that all together:
 
 ```CSS
 body {
@@ -369,13 +369,13 @@ p {
 }
 ```
 
-100. Now we need to link the CSS to any HTML file where we want the style sheet to apply. This connection is called a reference. 
+80. Now we need to link the CSS to any HTML file where we want the style sheet to apply. This connection is called a reference. 
 
-101. Each HTML page must reference the CSS to apply it to the page. 
+81. Each HTML page must reference the CSS to apply it to the page. 
 
-102. We create this reference in the `<head>` of the HTML document with the other metadata. 
+82. We create this reference in the `<head>` of the HTML document with the other metadata. 
 
-103. In the `<head>` of `index.html` add the reference `<link rel="stylesheet" type="text/css" href="mystyle.css">`.
+83. In the `<head>` of `index.html` add the reference `<link rel="stylesheet" type="text/css" href="mystyle.css">`.
 
 ```HTML
 <head>
@@ -383,37 +383,37 @@ p {
  <link rel="stylesheet" type="text/css" href="style.css">
 ```
 
-104. This line can appear anywhere between the `<head>` and `</head>`. 
+84. This line can appear anywhere between the `<head>` and `</head>`. 
 - The `<link>` tag is another way to create links to other documents. 
 - In this case the `rel` attribute defines the relationship between the HTML file and the linking document. 
 - The `type` defines the type and `href` contains the URL or location reference for the file.
 
-105. To learn more about the `<link rel>` tag: http://www.w3schools.com/tags/att_link_rel.asp
+85. To learn more about the `<link rel>` tag: http://www.w3schools.com/tags/att_link_rel.asp
 
 THIS FIG STAYS
 <p align="center"><a href="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/jmtemple/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
-106. Open the `index.html` file in your browser to see the updated CSS.
+86. Open the `index.html` file in your browser to see the updated CSS.
 
-107. However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
+87. However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
 
-108. Add the same `<link rel="stylesheet" type="text/css" href="mystyle.css">` to `page2.html`. 
+88. Add the same `<link rel="stylesheet" type="text/css" href="mystyle.css">` to `page2.html`. 
 
-109. Now both pages should share the same style.
+89. Now both pages should share the same style.
 
 <blockquote>Q9: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.</blockquote>
 
 # Creating a Website
 
-110. Now, it’s time to build your own website. The lab procedure has covered the tools you can use to get started, but you can also expand on what you've learned using the W3Schools HTML and CSS resources and documentation (be sure to cite resources you consult or reference- a list of URLs is fine). The files, HTML, and CSS you have created while working through the lab procedure can be the starting point for this website.
+90. Now, it’s time to build your own website. The lab procedure has covered the tools you can use to get started, but you can also expand on what you've learned using the W3Schools HTML and CSS resources and documentation (be sure to cite resources you consult or reference- a list of URLs is fine). The files, HTML, and CSS you have created while working through the lab procedure can be the starting point for this website.
 
-111. For now, your site needs to fit a few minimum requirements.
+91. For now, your site needs to fit a few minimum requirements.
   
-112. First, the theme. Choose at least three media items—these can be books, articles, podcasts, films, songs, etc. Ideally, these three (or more) items will have something in common, but that connection is up to you.
+92. First, the theme. Choose at least three media items—these can be books, articles, podcasts, films, songs, etc. Ideally, these three (or more) items will have something in common, but that connection is up to you.
 
-113. Next, you are going to build a website about these items. 
+93. Next, you are going to build a website about these items. 
 
-114. You need to meet the following requirements:
+94. You need to meet the following requirements:
 - You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
 - The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. 
 - Each of the item pages must include:
@@ -423,13 +423,13 @@ THIS FIG STAYS
 - The site also needs to include at least one table built in HTML (could be on any page)
 - You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
 
-115. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
+95. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
 
-116. I encourage you to use the W3Schools pages as a guide for HTML (http://www.w3schools.com/html/) and CSS (http://www.w3schools.com/css/default.asp) as you design your site. 
+96. I encourage you to use the W3Schools pages as a guide for HTML (http://www.w3schools.com/html/) and CSS (http://www.w3schools.com/css/default.asp) as you design your site. 
 
-117. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
+97. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
 
-118. Submit the HTML files and relevant CSS as as `.zip` folder on Canvas, along with your answers to lab notebook questions.
+98. Submit the HTML files and relevant CSS as as `.zip` folder on Canvas, along with your answers to lab notebook questions.
 
 <blockquote>Q9: Have you ever created a website before? Have you used a program like WordPress, Wix, SquareSpace, or Weebly? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
